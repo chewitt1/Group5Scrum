@@ -4,3 +4,4 @@
 - Carrima Hewitt
 - Jackson Hunt
 - Wendell Marshall
+- Surpris Mezardieu
