@@ -19,7 +19,7 @@ public class Sign : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.Space) && playerInRange)
+        if(Input.GetButtonUp("Fire1") && playerInRange)
         {
             if(dialogBox.activeInHierarchy)
             {
@@ -31,7 +31,6 @@ public class Sign : MonoBehaviour
                 dialogText.text = dialog;
             }
         }
-        
     }
 
     private void OnTriggerEnter2D(Collider2D other)

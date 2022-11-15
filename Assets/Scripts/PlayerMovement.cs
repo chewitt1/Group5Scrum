@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -24,6 +25,17 @@ public class PlayerMovement : MonoBehaviour
         change.y = Input.GetAxisRaw("Vertical");
         // Debug.Log(change);
 
+        /// Boot Into the Character Selection Screen ///
+        if(Input.GetAxis("RT") == 1)
+        {
+            SceneManager.LoadScene("Character_Selection");
+        }
+        else
+        {
+            Debug.Log("Right Trigger Not Pressed");
+        }
+
+
         UpdateAnimMove();
     }
 
@@ -45,6 +57,15 @@ public class PlayerMovement : MonoBehaviour
 
     void MoveCharacter()
     {
+        float origSpeed = 4;
+        if(Input.GetButton("Fire2"))
+        {
+            origSpeed = speed;
+            speed = 8;
+        }
+        else
+            speed = origSpeed;
+
         myRigidbody.MovePosition((Vector2)transform.position  + change * speed * Time.fixedDeltaTime);
     }
 }
