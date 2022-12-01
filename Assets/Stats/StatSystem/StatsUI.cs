@@ -7,6 +7,7 @@ public class StatsUI : MonoBehaviour
     [SerializeField] private GameObject statsBox;
     [SerializeField] private GameObject statsClose;
     [SerializeField] private TMP_Text textLabel;//A refernce to the text label
+    [SerializeField] private GameObject thePlayer;
     //[SerializeField] private StatsObject testStats;
 
     public bool isOpen { get; private set; }
@@ -36,7 +37,7 @@ public class StatsUI : MonoBehaviour
     {
         textLabel.text = statObject.Stats[0];
         //yield return typewriterEffect.Run(statObject.Stats[0], textLabel); //Just print one stat for now
-        yield return new WaitForSeconds(5); //Stay long enough to read
+        yield return new WaitForSeconds(10); //Stay long enough to read
 
         /*foreach (string stat in statObject.Stats) //change this to print only a specific stat
         {
@@ -56,7 +57,7 @@ public class StatsUI : MonoBehaviour
 
     private void CloseStatsBox() {
         isOpen = false;
-        GetComponent<TypewriterEffect>().enabled = false;
+        //statsBox.SetActive(false);
         statsClose.SetActive(true);
     }
 }

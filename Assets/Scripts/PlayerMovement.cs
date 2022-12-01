@@ -10,6 +10,9 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 change;
     private Animator animator;
 
+    [SerializeField] private StatsUI statsUI;
+    public StatsUI StatsUI => statsUI;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(statsUI.isOpen) return; //Don't move while stats dialogue is there
+
         change = Vector2.zero;   
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
