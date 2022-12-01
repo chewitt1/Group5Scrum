@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e91ed89c0d3264c921bbd12e7e82c3, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  stat:
+  - Across all people staying in sheltered locations on a single night in 2021, one-quarter
+    were children under the age of 18. Eight percent were youth aged 18 to 24, and
+    68 percent were people aged 25 or older
+  - More than half (56%) of people experiencing sheltered homelessness were men or
+    boys (182,673 people), 43 percent were women or girls (141,497 people), and less
+    than one percent were transgender (1,417 people) or gender-nonconforming (539
+    people)
+  - 'Nearly half of all people experiencing sheltered homelessness in the country
+    were in four states: New York (23% or 76,051 people); California (16% or 51,429
+    people); Massachusetts (4% or 13,944 people); and Florida (4% or 13,393).'
