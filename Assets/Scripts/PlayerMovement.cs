@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(statsUI.isOpen) return; //Don't move while stats dialogue is there
+        //if(statsUI.isOpen) return; //Don't move while stats dialogue is there
 
         change = Vector2.zero;   
         change.x = Input.GetAxisRaw("Horizontal");
