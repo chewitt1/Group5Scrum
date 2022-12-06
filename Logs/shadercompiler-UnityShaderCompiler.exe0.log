@@ -1,3 +1,4 @@
 Base path: 'X:/Windows_ROOT/Resources/Software/Game_Dev/Unity/Hub/Editor/2020.3.36f1/Editor/Data', plugins path 'X:/Windows_ROOT/Resources/Software/Game_Dev/Unity/Hub/Editor/2020.3.36f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
+Cmd: shutdown
