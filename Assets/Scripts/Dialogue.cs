@@ -10,5 +10,4 @@ public class Dialogue
 
     private Dialogue_Manager dMan;
 
-
 }
