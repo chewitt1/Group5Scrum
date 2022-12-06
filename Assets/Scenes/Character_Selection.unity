@@ -475,7 +475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2188303901690568803, guid: 91f0fab6125b1c445995e1272856ece4, type: 3}
       propertyPath: scene
-      value: StatScene
+      value: City1
       objectReference: {fileID: 0}
     - target: {fileID: 2188303901690568813, guid: 91f0fab6125b1c445995e1272856ece4, type: 3}
       propertyPath: m_Name
@@ -700,7 +700,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2188303901690568803, guid: 91f0fab6125b1c445995e1272856ece4, type: 3}
       propertyPath: scene
-      value: SampleScene2
+      value: City2
       objectReference: {fileID: 0}
     - target: {fileID: 2188303901690568813, guid: 91f0fab6125b1c445995e1272856ece4, type: 3}
       propertyPath: m_Name

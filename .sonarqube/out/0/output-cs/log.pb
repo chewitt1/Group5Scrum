@@ -1,0 +1,1 @@
+Roslyn version: 3.5.0.0Language version: CSharp8!Concurrent execution: enabledêãFile 'D:\Users\baba_\Documents\GitHub\Group5Scrum\obj\Debug\.NETFramework,Version=v4.7.1.AssemblyAttributes.cs' was recognized as generated
