@@ -19034,6 +19034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
+  statsUI: {fileID: 0}
 --- !u!61 &635831418
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27687,7 +27688,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileSpriteIndex: 16
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -36160,8 +36161,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 234
     m_Data: {fileID: 5944427560926644306, guid: e3a83ec7546523740b3107b3efc9405a, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 729139331109758419, guid: e3a83ec7546523740b3107b3efc9405a, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 17
     m_Data: {fileID: -361519778550237697, guid: e3a83ec7546523740b3107b3efc9405a, type: 3}
   - m_RefCount: 14
@@ -36184,8 +36185,8 @@ Tilemap:
     m_Data: {fileID: -2060011999383503334, guid: e3a83ec7546523740b3107b3efc9405a, type: 3}
   - m_RefCount: 168
     m_Data: {fileID: 2175128215781867153, guid: e3a83ec7546523740b3107b3efc9405a, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 729139331109758419, guid: e3a83ec7546523740b3107b3efc9405a, type: 3}
   - m_RefCount: 812
     m_Data: {fileID: -2671460228953875570, guid: e3a83ec7546523740b3107b3efc9405a, type: 3}
   m_TileMatrixArray:
