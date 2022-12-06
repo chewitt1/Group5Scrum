@@ -61,7 +61,10 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <Compile Include="Assets\Scripts\NPC.cs" />
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     <Compile Include="Assets\Scripts\Sign.cs" />

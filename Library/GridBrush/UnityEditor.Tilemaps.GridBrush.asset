@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Cells:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - m_Tile: {fileID: 0}
+=======
+  - m_Tile: {fileID: 11400000, guid: df8335014197ad344aae39e27f7e3751, type: 2}
+>>>>>>> Stashed changes
 =======
   - m_Tile: {fileID: 11400000, guid: df8335014197ad344aae39e27f7e3751, type: 2}
 >>>>>>> Stashed changes
@@ -36,6 +40,7 @@ MonoBehaviour:
       e32: 0
       e33: 1
     m_Color: {r: 1, g: 1, b: 1, a: 1}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   - m_Tile: {fileID: 0}
     m_Matrix:
@@ -1084,6 +1089,10 @@ MonoBehaviour:
     m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Size: {x: 8, y: 7, z: 1}
   m_Pivot: {x: 7, y: 0, z: 0}
+=======
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Pivot: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
 =======
   m_Size: {x: 1, y: 1, z: 1}
   m_Pivot: {x: 0, y: 0, z: 0}
