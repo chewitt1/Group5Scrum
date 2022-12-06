@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public bool canMove = true;
     public float speed;
     private Rigidbody2D myRigidbody;
     private Vector2 change;
@@ -37,11 +38,12 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            Debug.Log("Right Trigger Not Pressed");
+            // Debug.Log("Right Trigger Not Pressed");
         }
 
 
-        UpdateAnimMove();
+        if(canMove)
+            UpdateAnimMove();
     }
 
     void UpdateAnimMove()

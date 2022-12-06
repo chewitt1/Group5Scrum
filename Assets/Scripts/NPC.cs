@@ -5,9 +5,10 @@ using UnityEngine.UI;
 
 public class NPC : MonoBehaviour
 {
-    public GameObject dialogBox;
-    public Text dialogText;
-    public string dialog;
+    // public GameObject dialogBox;
+    // public Text dialogText;
+    // public string dialog;
+    public DialogueTrigger trigger;
     public bool playerInRange;
 
     // Start is called before the first frame update
@@ -21,15 +22,16 @@ public class NPC : MonoBehaviour
     {
         if(Input.GetButtonUp("Fire1") && playerInRange)
         {
-            if(dialogBox.activeInHierarchy)
-            {
-                dialogBox.SetActive(false);
-            }
-            else
-            {
-                dialogBox.SetActive(true);
-                dialogText.text = dialog;
-            }
+            trigger.TriggerDialogue();
+            // if(dialogBox.activeInHierarchy)
+            // {
+            //     dialogBox.SetActive(false);
+            // }
+            // else
+            // {
+            //     dialogBox.SetActive(true);
+            //     dialogText.text = dialog;
+            // }
         }
         
     }
@@ -48,7 +50,7 @@ public class NPC : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             playerInRange = false;
-            dialogBox.SetActive(false);
+            // dialogBox.SetActive(false);
             // Debug.Log("Player left range");
         }
     }
