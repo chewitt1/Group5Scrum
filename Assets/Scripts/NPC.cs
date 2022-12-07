@@ -20,38 +20,6 @@ public class NPC : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonUp("Fire1") && playerInRange)
-        {
-            trigger.TriggerDialogue();
-            // if(dialogBox.activeInHierarchy)
-            // {
-            //     dialogBox.SetActive(false);
-            // }
-            // else
-            // {
-            //     dialogBox.SetActive(true);
-            //     dialogText.text = dialog;
-            // }
-        }
         
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if(other.CompareTag("Player"))
-        {
-            playerInRange = true;
-            // Debug.Log("Player in range");
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if(other.CompareTag("Player"))
-        {
-            playerInRange = false;
-            // dialogBox.SetActive(false);
-            // Debug.Log("Player left range");
-        }
     }
 }

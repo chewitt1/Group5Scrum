@@ -11,7 +11,7 @@ public class LoadScene : MonoBehaviour
 
     public void StartGame()
     {
-        // SceneManager.LoadScene("SampleScene");
+        // This handles what scene gets loaded up
         SceneManager.LoadScene(scene);
 
     }

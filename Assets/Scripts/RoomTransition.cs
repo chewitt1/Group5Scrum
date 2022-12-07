@@ -11,6 +11,7 @@ public class RoomTransition : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // The Camera is first collected to manipulate
         cam = Camera.main.GetComponent<CameraMovement>();   
     }
 
@@ -22,6 +23,7 @@ public class RoomTransition : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        // This alters not only the camera position, but also the player's position according to the room entrance they are in
         if(other.CompareTag("Player"))
         {
             cam.minPosition +=cameraChange;
